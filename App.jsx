@@ -6,6 +6,7 @@ import First from './src/components/First';
 import Jsx from './src/components/jsx';
 import UseStateHooks from './src/components/UseStateHook';
 import Styleing from './src/components/Styleing';
+import FlatlistScreen from './src/components/FlatlistScreen';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Jsx/>
       <UseStateHooks/>
       <Styleing/>
+      <FlatlistScreen/>
     </View>
   );
 };
