@@ -1,25 +1,26 @@
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable react-native/no-inline-styles */
-import { View, Text, Button} from 'react-native';
+import { View, Text, Button, ScrollView } from 'react-native';
 import React from 'react';
 import First from './src/components/First';
 import Jsx from './src/components/jsx';
 import UseStateHooks from './src/components/UseStateHook';
 import Styleing from './src/components/Styleing';
 import FlatlistScreen from './src/components/FlatlistScreen';
+import SectionLists from './src/components/SectionList';
+import styles from './style/style';
 
 const App = () => {
   return (
-    <View>
-      <Text style={{ fontSize : 30}} >react native mobile app</Text>
-      <Text style={{ fontSize : 30}} >react native mobile app</Text>
-      <Button title='Press Here'></Button>
-      <First/>
-      <Jsx/>
-      <UseStateHooks/>
-      <Styleing/>
-      <FlatlistScreen/>
-    </View>
+    <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+      {/* Your components */}
+      {/* <Text style={{ fontSize: 30 }}>React Native Mobile App</Text> */}
+      {/* <Button title="Press Here" /> */}
+      {/* <First /> */}
+      {/* <Jsx /> */}
+      <UseStateHooks />
+      <Styleing />
+      <FlatlistScreen />
+      <SectionLists />
+    </ScrollView>
   );
 };
 
