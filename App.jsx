@@ -5,6 +5,7 @@ import React from 'react';
 import First from './src/components/First';
 import Jsx from './src/components/jsx';
 import UseStateHooks from './src/components/UseStateHook';
+import Styleing from './src/components/Styleing';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <First/>
       <Jsx/>
       <UseStateHooks/>
+      <Styleing/>
     </View>
   );
 };
