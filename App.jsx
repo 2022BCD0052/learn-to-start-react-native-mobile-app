@@ -7,6 +7,7 @@ import Styleing from './src/components/Styleing';
 import FlatlistScreen from './src/components/FlatlistScreen';
 import SectionLists from './src/components/SectionList';
 import styles from './style/style';
+import LoginForm from './src/components/LoginForm';
 
 const App = () => {
   return (
@@ -16,10 +17,12 @@ const App = () => {
       {/* <Button title="Press Here" /> */}
       {/* <First /> */}
       {/* <Jsx /> */}
-      <UseStateHooks />
-      <Styleing />
-      <FlatlistScreen />
-      <SectionLists />
+      {/* <UseStateHooks /> */}
+      {/* <Styleing /> */}
+      {/* <FlatlistScreen /> */}
+      {/* <SectionLists /> */}
+      <LoginForm/>
+
     </ScrollView>
   );
 };
