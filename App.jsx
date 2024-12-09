@@ -1,7 +1,9 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable react-native/no-inline-styles */
 import { View, Text, Button} from 'react-native';
 import React from 'react';
 import First from './src/components/First';
+import Jsx from './src/components/jsx';
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
       <Text style={{ fontSize : 30}} >react native mobile app</Text>
       <Button title='Press Here'></Button>
       <First/>
+      <Jsx/>
     </View>
   );
 };
