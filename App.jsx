@@ -4,6 +4,7 @@ import { View, Text, Button} from 'react-native';
 import React from 'react';
 import First from './src/components/First';
 import Jsx from './src/components/jsx';
+import UseStateHooks from './src/components/UseStateHook';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Button title='Press Here'></Button>
       <First/>
       <Jsx/>
+      <UseStateHooks/>
     </View>
   );
 };
