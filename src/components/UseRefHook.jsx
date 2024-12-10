@@ -5,10 +5,12 @@ import React, { useRef } from 'react';
 const UseRefHook = () => {
     const myRef = useRef();
     const handleRef = () =>{
-        myRef.current.setNativeProps({
-            style: { borderColor: 'blue', borderWidth: 2 },
-            text : "yogesh"
-        })
+        // myRef.current.setNativeProps({
+        //     style: { borderColor: 'blue', borderWidth: 2 },
+        //     text : "yogesh"
+        // })
+        myRef.current.focus();
+
     }
   return (
     <View

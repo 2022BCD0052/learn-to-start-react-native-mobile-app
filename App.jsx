@@ -15,6 +15,7 @@ import UseEffectHookUnmounteed from './src/components/UseEffectHookUnmounteed';
 import HideShowToggle from './src/components/HideShowToggle';
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
+import ModalDialogBox from './src/components/ModalDialogBox';
 
 const App = () => {
   return (
@@ -38,7 +39,8 @@ const App = () => {
               {/* <UseEffectHookUnmounteed/> */}
               {/* <HideShowToggle/> */}
               {/* <StatusBarExample/> */}
-              <UseRefHook/>
+              {/* <UseRefHook/> */}
+              <ModalDialogBox/>
 
     </View>
   );
