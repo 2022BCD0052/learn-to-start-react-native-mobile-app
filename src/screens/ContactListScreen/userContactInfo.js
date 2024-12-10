@@ -1,0 +1,58 @@
+export const users = [
+  {
+    id: 1,
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    password: 'password123',
+    role: 'admin',
+  },
+  {
+    id: 2,
+    name: 'Jane saini',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+  {
+    id: 5,
+    name: 'Jane sankhla',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+  {
+    id: 4,
+    name: 'Jane Doe',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+  {
+    id: 3,
+    name: 'Jane Doe',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+  {
+    id: 6,
+    name: 'Jane sankhla',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+  {
+    id: 7,
+    name: 'Jane Doe',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+  {
+    id: 8,
+    name: 'Jane Doe',
+    email: 'jane.doe@example.com',
+    password: 'password123',
+    role: 'user',
+  },
+];

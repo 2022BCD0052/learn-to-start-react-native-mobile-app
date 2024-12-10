@@ -8,22 +8,31 @@ import FlatlistScreen from './src/components/FlatlistScreen';
 import SectionLists from './src/components/SectionList';
 import styles from './style/style';
 import LoginForm from './src/components/LoginForm';
+import ContactListScreen from './src/screens/ContactListScreen/ContactListScreen';
+import Grid from './src/components/Grid';
+import ClassComponent from './src/components/ClassComponents';
 
 const App = () => {
   return (
-    <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
-      {/* Your components */}
-      {/* <Text style={{ fontSize: 30 }}>React Native Mobile App</Text> */}
-      {/* <Button title="Press Here" /> */}
-      {/* <First /> */}
-      {/* <Jsx /> */}
-      {/* <UseStateHooks /> */}
-      {/* <Styleing /> */}
-      {/* <FlatlistScreen /> */}
-      {/* <SectionLists /> */}
-      <LoginForm/>
+    <View style={{ flex: 1 }}>
+      {/* <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+        <Text style={{ fontSize: 30, textAlign: 'center', marginVertical: 10 }}>
+          React Native Mobile App
+        </Text>
+        <Button title="Press Here" onPress={() => alert('Button Pressed')} />
+        <First />
+        <Jsx />
+        <UseStateHooks />
+        <Styleing />
+        <FlatlistScreen />
+        <SectionLists />
+        <LoginForm />
+        <ContactListScreen />
+      </ScrollView> */}
+              {/* <Grid /> */}
+              <ClassComponent/>
 
-    </ScrollView>
+    </View>
   );
 };
 
