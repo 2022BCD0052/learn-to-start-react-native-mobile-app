@@ -12,6 +12,7 @@ import ContactListScreen from './src/screens/ContactListScreen/ContactListScreen
 import Grid from './src/components/Grid';
 import ClassComponent from './src/components/ClassComponents';
 import UseEffectHookUnmounteed from './src/components/UseEffectHookUnmounteed';
+import HideShowToggle from './src/components/HideShowToggle';
 
 const App = () => {
   return (
@@ -32,7 +33,8 @@ const App = () => {
       </ScrollView> */}
               {/* <Grid /> */}
               {/* <ClassComponent/> */}
-              <UseEffectHookUnmounteed/>
+              {/* <UseEffectHookUnmounteed/> */}
+              <HideShowToggle/>
 
     </View>
   );
