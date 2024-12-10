@@ -16,10 +16,11 @@ import HideShowToggle from './src/components/HideShowToggle';
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
+import AlertExample from './src/component2/AlertExample';
 
 const App = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ backgroundColor :'white' }}>
       {/* <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <Text style={{ fontSize: 30, textAlign: 'center', marginVertical: 10 }}>
           React Native Mobile App
@@ -40,7 +41,8 @@ const App = () => {
               {/* <HideShowToggle/> */}
               {/* <StatusBarExample/> */}
               {/* <UseRefHook/> */}
-              <ModalDialogBox/>
+              {/* <ModalDialogBox/> */}
+              <AlertExample/>
 
     </View>
   );
