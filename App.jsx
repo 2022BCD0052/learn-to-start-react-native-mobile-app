@@ -17,6 +17,9 @@ import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
 import AlertExample from './src/component2/AlertExample';
+import Get_api from './src/component2/Get_api';
+import Post_Api from './src/component2/Post_Api';
+import Put_api from './src/component2/Put_api';
 
 const App = () => {
   return (
@@ -42,7 +45,10 @@ const App = () => {
               {/* <StatusBarExample/> */}
               {/* <UseRefHook/> */}
               {/* <ModalDialogBox/> */}
-              <AlertExample/>
+              {/* <AlertExample/> */}
+              {/* <Get_api/> */}
+              <Post_Api/>
+              <Put_api/>
 
     </View>
   );
