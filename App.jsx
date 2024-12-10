@@ -14,6 +14,7 @@ import ClassComponent from './src/components/ClassComponents';
 import UseEffectHookUnmounteed from './src/components/UseEffectHookUnmounteed';
 import HideShowToggle from './src/components/HideShowToggle';
 import StatusBarExample from './src/components/StatusBarExample';
+import UseRefHook from './src/components/UseRefHook';
 
 const App = () => {
   return (
@@ -36,7 +37,8 @@ const App = () => {
               {/* <ClassComponent/> */}
               {/* <UseEffectHookUnmounteed/> */}
               {/* <HideShowToggle/> */}
-              <StatusBarExample/>
+              {/* <StatusBarExample/> */}
+              <UseRefHook/>
 
     </View>
   );
