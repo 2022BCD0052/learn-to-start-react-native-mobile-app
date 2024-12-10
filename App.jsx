@@ -13,6 +13,7 @@ import Grid from './src/components/Grid';
 import ClassComponent from './src/components/ClassComponents';
 import UseEffectHookUnmounteed from './src/components/UseEffectHookUnmounteed';
 import HideShowToggle from './src/components/HideShowToggle';
+import StatusBarExample from './src/components/StatusBarExample';
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
               {/* <Grid /> */}
               {/* <ClassComponent/> */}
               {/* <UseEffectHookUnmounteed/> */}
-              <HideShowToggle/>
+              {/* <HideShowToggle/> */}
+              <StatusBarExample/>
 
     </View>
   );
