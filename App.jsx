@@ -11,6 +11,7 @@ import LoginForm from './src/components/LoginForm';
 import ContactListScreen from './src/screens/ContactListScreen/ContactListScreen';
 import Grid from './src/components/Grid';
 import ClassComponent from './src/components/ClassComponents';
+import UseEffectHookUnmounteed from './src/components/UseEffectHookUnmounteed';
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
         <ContactListScreen />
       </ScrollView> */}
               {/* <Grid /> */}
-              <ClassComponent/>
+              {/* <ClassComponent/> */}
+              <UseEffectHookUnmounteed/>
 
     </View>
   );
