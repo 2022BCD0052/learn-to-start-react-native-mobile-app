@@ -1,4 +1,4 @@
-import { View, Text, Button, ScrollView } from 'react-native';
+import { View, Text, Button, ScrollView, Platform } from 'react-native';
 import React from 'react';
 import First from './src/components/First';
 import Jsx from './src/components/jsx';
@@ -23,6 +23,7 @@ import Petch_Api from './src/component2/Petch_api';
 import Delete_Api from './src/component2/Delete_Api';
 import Put_api from './src/component2/Put_api';
 import Get_Api_List from './src/component2/Get_Api_List';
+import PlatformExample from './src/component2/PlatformExample';
 
 const App = () => {
   return (
@@ -54,7 +55,9 @@ const App = () => {
         {/* <Put_api /> */}
         {/* <Petch_Api /> */}
         {/* <Delet e_Api /> */}
-        <Get_Api_List/>
+        {/* <Get_Api_List/> */}
+        <PlatformExample/>
+
       </ScrollView>
     </View>
   );
