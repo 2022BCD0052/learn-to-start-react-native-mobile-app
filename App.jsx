@@ -24,6 +24,7 @@ import Delete_Api from './src/component2/Delete_Api';
 import Put_api from './src/component2/Put_api';
 import Get_Api_List from './src/component2/Get_Api_List';
 import PlatformExample from './src/component2/PlatformExample';
+import Search from './src/component2/Search';
 
 const App = () => {
   return (
@@ -56,7 +57,8 @@ const App = () => {
         {/* <Petch_Api /> */}
         {/* <Delet e_Api /> */}
         {/* <Get_Api_List/> */}
-        <PlatformExample/>
+        {/* <PlatformExample/> */}
+        <Search/>
 
       </ScrollView>
     </View>
