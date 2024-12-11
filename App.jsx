@@ -19,37 +19,43 @@ import ModalDialogBox from './src/components/ModalDialogBox';
 import AlertExample from './src/component2/AlertExample';
 import Get_api from './src/component2/Get_api';
 import Post_Api from './src/component2/Post_Api';
+import Petch_Api from './src/component2/Petch_api';
+import Delete_Api from './src/component2/Delete_Api';
 import Put_api from './src/component2/Put_api';
+import Get_Api_List from './src/component2/Get_Api_List';
 
 const App = () => {
   return (
-    <View style={{ backgroundColor :'white' }}>
-      {/* <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+    <View style={{ flex: 1, backgroundColor: 'white' }}>
+      <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <Text style={{ fontSize: 30, textAlign: 'center', marginVertical: 10 }}>
           React Native Mobile App
         </Text>
         <Button title="Press Here" onPress={() => alert('Button Pressed')} />
-        <First />
-        <Jsx />
-        <UseStateHooks />
-        <Styleing />
-        <FlatlistScreen />
-        <SectionLists />
-        <LoginForm />
-        <ContactListScreen />
-      </ScrollView> */}
-              {/* <Grid /> */}
-              {/* <ClassComponent/> */}
-              {/* <UseEffectHookUnmounteed/> */}
-              {/* <HideShowToggle/> */}
-              {/* <StatusBarExample/> */}
-              {/* <UseRefHook/> */}
-              {/* <ModalDialogBox/> */}
-              {/* <AlertExample/> */}
-              {/* <Get_api/> */}
-              <Post_Api/>
-              <Put_api/>
-
+        {/* Uncomment the components you want to render */}
+        {/* <First /> */}
+        {/* <Jsx /> */}
+        {/* <UseStateHooks /> */}
+        {/* <Styleing /> */}
+        {/* <FlatlistScreen /> */}
+        {/* <SectionLists /> */}
+        {/* <LoginForm /> */}
+        {/* <ContactListScreen /> */}
+        {/* <Grid /> */}
+        {/* <ClassComponent /> */}
+        {/* <UseEffectHookUnmounteed /> */}
+        {/* <HideShowToggle /> */}
+        {/* <StatusBarExample /> */}
+        {/* <UseRefHook /> */}
+        {/* <ModalDialogBox /> */}
+        {/* <AlertExample /> */}
+        {/* <Get_api /> */}
+        {/* <Post_Api /> */}
+        {/* <Put_api /> */}
+        {/* <Petch_Api /> */}
+        {/* <Delet e_Api /> */}
+        <Get_Api_List/>
+      </ScrollView>
     </View>
   );
 };
